@@ -1,4 +1,4 @@
-# QCVIS
+# Template-React-Flask-MongoDB
 
 > updated on Jan. 17, 2022
 
@@ -9,13 +9,13 @@ This is a template with `React` + `Flask` + `MongoDB` for instant build of a VA 
 ### How to use it?
 
 **Client**:
-1. 安装client依赖 `cd client | npm install`
-2. 启动client `npm start`
+1. 安装client依赖: `cd client | npm install`
+2. 启动client: `npm start`
 
 **Server**:
-1. 创建虚拟环境 + 激活 `mkvirtualenv ENV_NAME` + `workon ENV_NAME`
-2. 根据`requirements`安装依赖包 `pip install -r requirements.txt`
-3. 启动项目 `cd server | python app.py`
+1. 创建虚拟环境 + 激活: `mkvirtualenv ENV_NAME` + `workon ENV_NAME`
+2. 根据`requirements`安装依赖包: `pip install -r requirements.txt`
+3. 启动项目: `cd server | python app.py`
 
 > 如果 `React` 控制台可以 `console.log` 出 `hello`, 说明前后台可以正常通信
 
@@ -26,5 +26,4 @@ This is a template with `React` + `Flask` + `MongoDB` for instant build of a VA 
 
 **MongoDB**:
 
-1. 创建db 通过 `Robo 3T`直接创建
-
+1. 创建db: 通过 `Robo 3T`直接创建
